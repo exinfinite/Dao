@@ -2,7 +2,7 @@
 namespace Exinfinite;
 
 class Dao implements \Iterator {
-    private $props = [];
+    protected $props = [];
     function __construct(Array $args = []) {
         $this->set($args);
     }
